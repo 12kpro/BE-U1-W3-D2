@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 
         static {
             try {
-                entityManagerFactory = Persistence.createEntityManagerFactory("gestioneventi ");
+                entityManagerFactory = Persistence.createEntityManagerFactory("gestioneventi");
             } catch (Throwable ex) {
                 System.err.println("Initial EntityManagerFactory creation failed." + ex);
                 throw new ExceptionInInitializerError(ex);
